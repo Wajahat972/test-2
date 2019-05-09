@@ -1,0 +1,55 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Source Sans Pro' , sans-serif;
+    background: #f7f7f7
+}
+header{
+    position:  ;
+    top:0;
+    left:0;
+    padding: 0 10px;
+    background: #ffffff;
+    height:20px;
+    width:100%;
+    box-sizing:border-box;
+}
+header.logo{
+    display:inline-block;
+}
+header nav {
+    display:inline-block;
+}
+header nav ul{
+    text-transform:uppercase;
+   
+    padding:0;
+    display:flex;
+}
+.starcolor{
+    color:#f8b732;
+}
+.star{
+    color:white;
+}
+
+.button3 {
+  font-size: 2em;
+}
+
+.button3 {
+  border-radius: none;
+}
+
+.button3:hover {
+  background-color:red;
+  color: white;
+}
+
+input{
+    border-radius: none;
+    padding:2em;
+    border: none;
+    width:500px;
+    size:4em }
